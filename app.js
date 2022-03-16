@@ -217,8 +217,9 @@ app.get("/cards", function (req, res) {
 });
 
 app.get("/", function (req, res) {
-  const mensage = ["Home", "Cards are /cards", "Exercise are /exe"];
-  res.send(mensage);
+  res._write("Hello, wellcome to API from: FitnessExpress");
+  res.write("Cards /cards");
+  res.write("Exercises /exe");
 });
 
 app.listen(port, () => {
