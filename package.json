@@ -1,0 +1,15 @@
+{
+  "name": "api-fitness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "",
+  "license": "ISC"
+}
